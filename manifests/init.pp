@@ -42,7 +42,7 @@ class ssh_login_message {
         owner => root,
         group => root,
         mode => 0644,
-        source => 'puppet:///modules/sidhug-ssh_login_message/login_message',
+        source => 'puppet:///modules/ssh_login_message/login_message',
 
         notify => Service['sshd']
     }
