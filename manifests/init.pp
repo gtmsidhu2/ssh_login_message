@@ -49,7 +49,10 @@ class ssh_login_message {
 
     augeas{ "disable_last_login_msg":
         context => "/files/etc/ssh/sshd_config",
-        changes => "set PrintLastLog no",
+        changes => [
+            "set PrintLastLog no",
+            "set PrintMotd yes"
+            ],
         before => Service['sshd']
     }
 
