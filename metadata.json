@@ -1,0 +1,17 @@
+{
+  "name": "sidhug-ssh_login_message",
+  "version": "0.1.0",
+  "author": "sidhug",
+  "summary": "manage login message",
+  "license": "Apache 2.0",
+  "source": "github",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
